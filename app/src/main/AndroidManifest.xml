@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme._24012011182_MAD_PRACTICAL6">
         <activity
-            android:name="SplashActivity"
+            android:name=".SplashActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -25,6 +25,15 @@
             android:name=".MainActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".AlarmService"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <receiver
+            android:name=".AlarmBroadcastReciver"
+            android:enabled="true"
+            android:exported="true"></receiver>
     </application>
 
 </manifest>

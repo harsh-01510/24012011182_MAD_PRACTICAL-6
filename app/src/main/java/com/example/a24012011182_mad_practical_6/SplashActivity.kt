@@ -2,6 +2,7 @@ package com.example.a24012011182_mad_practical_6
 
 import android.graphics.drawable.AnimationDrawable
 import android.os.Bundle
+import android.content.Intent
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
@@ -42,7 +43,7 @@ class SplashActivity : AppCompatActivity() , Animation.AnimationListener{
     }
 
     override fun onAnimationEnd(animation: Animation?) {
-
+        Intent(this,MainActivity::class.java).also {startActivity(it) }
     }
 
     override fun onAnimationRepeat(animation: Animation?) {
