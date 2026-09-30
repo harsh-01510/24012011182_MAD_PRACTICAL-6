@@ -126,6 +126,4 @@ app/
 
 ---
 
-**Student ID**: 24172022034  
-**Practical**: 6  
-**Course**: Mobile Application Development
+
